@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>IFrame do YT</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<div id="bloco_geral">
+    <div class="typewriter">
+        <h1>IFrame do YT</h1>
+    </div>
+    
+<div id="container_iframe">
+<iframe src="https://www.youtube-nocookie.com/embed/" allowfullscreen="true" data-linktype="external" title="video" id="tela_iframe"></iframe>
+</div>
+    <div id="bloco_secundario">
+        <label for="userInput" id="yt_text">Digite o código do vídeo do YT:</label>
+        <input type="text" id="userInput" placeholder="Exemplo: QFo84B17N1I">
+        <button onclick="atualizarValor()" id="yt_button">Confirmar</button>
+    </div>
+
+</div>
+<script src="script.js"></script>
+
+
+
+</body>
+
+</html>
+
